@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "fin-modeler"
+version = "0.1.0"
+description = ""
+authors = ["Ilia Maystrenko <ilia-may@ya.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pydantic = "^2.6.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
